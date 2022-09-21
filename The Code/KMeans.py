@@ -27,13 +27,11 @@ def find_closest_centroid(X,centroids):
         for h in range( centroids.shape[0] ):
             
             dist = np.sum(  ( X[i,:] - centroids[h,:] ) **2  )
-            print('Before')
-            print(X[i,:])
+
             if dist < min_dist:
                 min_dist = dist
                 centroid_for_each[i] = h
-        print('After')
-        print(X[i,:])
+                
                 
                 
         
@@ -80,7 +78,7 @@ print(o)
 
 
 
-iters = 1
+iters = 7
 for q in range(iters):
     centroid_for_each = find_closest_centroid(data['X'], initial_centroids)
     initial_centroids = compute_centroids(data['X'], centroid_for_each, k)
