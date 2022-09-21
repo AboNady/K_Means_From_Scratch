@@ -45,7 +45,9 @@
 <br/>
 
 ## Figures
-<a href="https://im.ge/i/1D8qxm"><img src="https://i.im.ge/2022/09/21/1D8qxm.Finafl.gif" alt="Finafl" border="0"></a>
+
+![Finafl](https://user-images.githubusercontent.com/111538752/191413606-9b453d60-16b1-4eae-8788-b48fe457e9e4.gif)
+
 
 <br/>
 <br/>
